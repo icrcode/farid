@@ -12,15 +12,20 @@ body{
     padding-right: 10px;
 }
 
+#links{
+    padding-right: 10px;
+}
+
 #navbar{
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
     background-color: rgb(7, 49, 98);
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .noticias{
     display: flex;
@@ -34,6 +39,38 @@ body{
     color: rgb(65, 65, 65);
     background-color: rgb(188, 206, 225);
     border: 4px solid rgb(0, 0, 0);
+}
+
+.escalacao{
+    text-align: center;
+    background-color: rgb(94, 138, 209);
+    margin: 40px;
+}
+
+#titulo_escalacao{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mosqueteiro{
+    right: 0px;
+    bottom: -140px;
+    position: fixed;
+}
+
+#jogadores{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.jogador{
+    text-align: center;
+    
+}
+
+#icon_jogador{
+    width: 52px;
 }
 
 .img_noticia{
